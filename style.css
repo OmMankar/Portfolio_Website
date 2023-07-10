@@ -1,0 +1,207 @@
+
+.top-container{
+    
+    background-image:  url(./Images/kisspng-joensuun-mainospiste-oy-drawing-ink-ink-ink-chinese-style-circle-5a69ef74c9e360.5050600715168920208269.png),url(./Images/alessio-soggetti-PdGBci-4jR8-unsplash.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;  
+    display: block;
+    font-family: "Sacramento", cursive;
+}
+.top-container img{
+    width: 100px;
+    height: 150px;
+    
+}
+.title-text{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    
+}
+
+
+
+.Introduction-container {
+    display: flex;
+    text-align: center;
+}
+.Introduction-container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   margin: auto;
+   object-fit:contain;
+}
+
+.Introduction-container .intro {
+    width: 70%;
+    margin: auto;
+    color:#0097E0;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media  (max-width: 1023px){
+    .Introduction-container {
+    display: block;
+    text-align: center;
+}
+.Introduction-container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   margin: auto;
+   object-fit:contain;
+}
+
+.Introduction-container .intro {
+    width: 70%;
+    margin: auto;
+    color:#0097E0;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}}
+ .Resume-container{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #0097E0;
+    
+    }
+
+.Resume-container div{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 5%;
+    box-shadow: 15px 15px 2px 1px rgba(2, 2, 218, 0.2);
+    border: 4mm ridge rgba(252, 252, 253, 0.6);
+    
+   }
+@media  (max-width: 1023px){
+    .Resume-container{
+        height: auto;
+        width: 100%;
+        display: block;
+        
+        padding-top: 40px;
+        padding-bottom: 20px;
+        background-color: #0097E0;
+        
+        
+    }
+    @media  (min-width:769px) and (max-width: 1022px){
+        .Resume-container div{
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-bottom: 5%;
+            padding: 20px;
+            background-color: white;
+            border: 5px solid black;
+            border-radius: 5%;
+            box-shadow: 15px 15px 2px 1px rgba(2, 2, 218, 0.2);
+            border: 4mm ridge rgba(252, 252, 253, 0.6);
+            
+           
+        }
+    }
+    .Resume-container div{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        padding: 20px;
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 5%;
+        box-shadow: 15px 15px 2px 1px rgba(2, 2, 218, 0.2);
+        border: 4mm ridge rgba(252, 252, 253, 0.6);
+        
+       
+    }
+    
+}
+
+   
+
+.Contact_me{
+    background-color:#02387b;
+    color: white;
+    height: fit-content;
+    text-align: center;
+}
+
+a{
+    color:mediumspringgreen;
+}
+.top-container h1{
+    font-size: 2rem;
+}
+.Contact_me a{
+   font-size: x-large;
+}  
+p{
+    font-family:sans-serif;
+    line-height: 1.5;
+}
+li{
+    font-family:sans-serif;
+    line-height: 1.5;
+}
+
+@media  (max-width: 767px){
+    .title-text{
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        
+    }
+    .Introduction-container .intro {
+        width: 70%;
+        margin: auto;
+        color:#0097E0;
+        font-size: 1.5rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    .top-container h1{
+        font-size: 25px;
+    }
+    h1{font-size: large;}
+    p{  font-size:small;
+        font-family:sans-serif;
+        line-height: 1.5;
+    }
+    a{
+        font-size: small;
+    }
+
+    li{
+        font-size: small;
+        font-family:sans-serif;
+        line-height: 1.5;
+    }
+    .Resume-container div{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 5%;
+        box-shadow: 5px 5px 2px 1px rgba(2, 2, 218, 0.2);
+        border: 3mm ridge rgba(252, 252, 253, 0.6);
+        
+       
+    }
+}
